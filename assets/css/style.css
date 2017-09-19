@@ -1,0 +1,28 @@
+.header {
+	display: block;
+	background-color: #ffffff;
+	border-bottom: 12px solid #cccccc;
+	margin-top: 65px;
+}
+
+#HName {
+	display: block;
+	text-align: center;
+	float: left;
+	margin-top: -57px;
+	margin-left: 63px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+#Links {
+	float: right;
+	margin-top: -57px;
+
+}
+
+.footer {
+	background-color: #666666;
+	text-align: center;
+}
