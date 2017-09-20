@@ -1,8 +1,30 @@
+.bg {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+}
+
+.bg img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+}
+
 .header {
+	position: absolute;
 	display: block;
 	background-color: #ffffff;
-	border-bottom: 12px solid #cccccc;
+	border-bottom: 3px solid #cccccc;
 	margin-top: 65px;
+	left: 0;
+	right: 0;
 }
 
 #HName {
@@ -12,13 +34,50 @@
 	margin-top: -57px;
 	margin-left: 63px;
 	background-color: #4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
 
 }
 
 #Links {
 	float: right;
 	margin-top: -57px;
+
+}
+
+
+.Info {
+	display: block;
+	background-color: white;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	position: absolute;
+	margin-top: 10%;
+	margin-bottom: 17%;
+	margin-right: 29%;
+	margin-left: 5%;
+}
+
+.Connect {
+	display: black;
+	background-color: white;
+	position: absolute;
+	margin-top: 17%;
+	margin-bottom: 25%;
+	margin-left: 83%;
+}
+
+#Me {
+	float: left;
+}
+
+#Github {
+
+}
+
+#Linkedin {
+
+}
+
+#Slack {
 
 }
 
