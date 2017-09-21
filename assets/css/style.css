@@ -1,54 +1,43 @@
-.bg {
-	position: fixed;
-	top: -50%;
-	left: -50%;
-	width: 200%;
-	height: 200%;
+body {
+	background-image: url("../images/regal.png");
+
 }
 
-.bg img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-	min-width: 50%;
-	min-height: 50%;
-}
 
 .header {
-	position: absolute;
-	display: block;
+	width: 100%;
+	height: 68px;
 	background-color: #ffffff;
+	top: 0;
 	border-bottom: 3px solid #cccccc;
-	height: 10%;
-	left: 0%;
-	right: 0%;
+	position: relative;
+}
+
+.Hmid {
+	width: 960px;
+	margin-left: auto;
+	margin: auto;
+	position: relative;
 }
 
 #HName {
+	display: inline-block;
 	background-color: #4aaaa5;
-	float: left;
-	display: block;
-	margin-top: 0%;
-	margin-bottom: 0%;
-	margin-left: 5%;
-	height: 100%;
-	width: 35%;
-	text-align: center;
+	color: white;
+	left: 0px;
+	top: 0;
+	padding: 20px;
+	font-family: 'Georgia', times, Times New Roman, serif;
 	position: absolute;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #ffffff;
-	
+	font-weight: bold;
+	font-size: 175%;
 }
+
 
 #Links {
 	float: right;
-	display: block;
-	margin-top: 0%;
-	margin-bottom:0%;
-	margin-right: 5%;
+	display: inline-block;
+	right: 0;
 	height: 100%;
 	text-align: center;
 	position: relative;
@@ -56,9 +45,22 @@
 
 }
 
+a {
+	color: #cccccc;
+	text-decoration: none;
+}
+
 #L2 {
 	margin-top: 15%;
 	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.Container {
+	width: 960px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 
@@ -67,22 +69,49 @@
 	background-color: white;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	position: absolute;
-	margin-top: 10%;
-	margin-bottom: 17%;
-	margin-right: 29%;
-	margin-left: 5%;
+	width: 650px;
+	top: 30px;
+	left: 0;
+	border: 1px solid #dddddd;
+
+}
+
+.Info h2 {
+	margin-left: 2.5%;
+	margin-top: 10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 175%;
+
+}
+
+.Info hr {
+	width: 95%;
+	border-bottom: 2px solid #dddddd;
 }
 
 .Connect {
 	display: block;
 	background-color: white;
 	position: absolute;
-	margin-top: 10%;
-	margin-bottom: 25%;
-	margin-left: 83%;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
+	right: 0;
+	top: 30px;
+	width: 270px;
+	border: 1px solid #dddddd;
+}
+
+.Connect h3 {
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 175%;
+}
+
+.Connect hr {
+	width: 95%;
+	border-bottom: 2px solid #dddddd;
 }
 
 #Me {
@@ -93,6 +122,7 @@
 	float: left;
 	width: 50px;
 	height: 50px;
+	margin-left: 48px;
 
 }
 
@@ -106,17 +136,29 @@
 
 #Slack {
 	float: left;
-	width: 50px;
-	height: 50px;
+	width: 46px;
+	height: 46px;
 	margin-left: 10px;
+	margin-left: 10px;
+	margin-top: 2px;
 
 }
 
 .footer {
 	background-color: #666666;
 	text-align: center;
-	position: fixed;
+	position: absolute;
+	height: 68px;
 	bottom: 0%;
 	left: 0%;
 	right: 0%;
+	border-top: 10px solid #4aaaa5;
+}
+
+.footer p {
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	right: 35%;
+	color: grey;
 }
