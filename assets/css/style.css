@@ -97,6 +97,7 @@ a {
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 	margin-top: 4%;
+	line-height: 31.5px;
 
 }
 
@@ -181,16 +182,6 @@ a {
 }
 
 
-/*.footer {
-	background-color: #666666;
-	text-align: center;
-	position: absolute;
-	height: 68px;
-	margin-bottom: 0%;
-	left: 0%;
-	right: 0%;
-	border-top: 10px solid #4aaaa5;
-}*/
 
 .footer p {
 	position: absolute;
